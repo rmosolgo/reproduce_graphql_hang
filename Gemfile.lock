@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/rmosolgo/graphql-ruby.git
+  revision: 3125a25985477b80ab43a629e33dbd8353fb95fe
+  branch: class-based-api
+  specs:
+    graphql (1.7.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -57,7 +64,6 @@ GEM
       activesupport (>= 4.1.0)
     graphiql-rails (1.4.1)
       rails
-    graphql (1.5.5)
     i18n (0.8.1)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
@@ -160,7 +166,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   graphiql-rails
-  graphql
+  graphql!
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
@@ -176,4 +182,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.14.5
+   1.16.0

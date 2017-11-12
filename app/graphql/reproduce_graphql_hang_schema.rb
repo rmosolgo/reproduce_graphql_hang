@@ -1,4 +1,3 @@
-ReproduceGraphqlHangSchema = GraphQL::Schema.define do
+class ReproduceGraphqlHangSchema < GraphQL::Schema
   query(Types::QueryType)
-  mutation(Types::MutationType)
 end
